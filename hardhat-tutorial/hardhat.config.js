@@ -11,6 +11,7 @@ module.exports = {
     mumbai: {
       url: ALCHEMY_API_KEY_URL,
       accounts: [MUMBAI_PRIVATE_KEY],
+      gasPrice: 35000000000,
     },
   },
 };
